@@ -13,9 +13,9 @@ let width = 0;
     <Navbar/>
     <div class="banner">
         {#if width>960}
-        <img src="src\assets\landing upper desktop.png" alt="">
+        <img src=".\src\assets\landing upper desktop.png" alt="">
         {:else} 
-        <img src="src\assets\landing upper.png" alt="">
+        <img src=".\src\assets\landing upper.png" alt="">
         {/if}
         <div class="button"> <a href="https://www.instagram.com/aoifestudios/"><img src="src\assets\button.png" alt=""></a></div>
 
