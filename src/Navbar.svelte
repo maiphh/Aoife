@@ -8,8 +8,8 @@
   <label class="logo"><a href="index.html"><img src="src\assets\logo.png" alt=""></a></label>
       <ul>
         
-        <li><a href="category.html">ABOUT US</a></li>
-        <li><a href="contact.html">EXCHANGE POLICY</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="exchange.html">EXCHANGE POLICY</a></li>
       </ul>
     </nav>
   </header>
@@ -42,7 +42,7 @@ margin-left: 30px;
 
 .menu-icon img{
   height: 30px;
-  width: 30px;
+  
 }
 nav ul {
   float: right;
@@ -89,13 +89,18 @@ nav ul li a:hover {
 /* Mobile layout */
 @media (max-width: 960px) {
     .logo a img{
-    
+    width: 50px;
     margin-top: 15px;
     }
 
   .menu-icon {
     display: block;
     }
+
+    .menu-icon img{
+  height: 20px;
+  
+}
   nav ul {
 
     width: 100%;

@@ -1,16 +1,28 @@
 
 <script>
 import Navbar from "./Navbar.svelte";
+import Footer from "./Footer.svelte";
 
+let width = 0;
 </script>
 
+<svelte:window bind:innerWidth={width}/>
 <main>
+    
+    
     <Navbar/>
-
     <div class="banner">
+        {#if width>960}
+        <img src="src\assets\landing upper desktop.png" alt="">
+        {:else} 
+        <img src="src\assets\landing upper.png" alt="">
+        {/if}
+        <div class="button"> <a href="https://www.instagram.com/aoifestudios/"><img src="src\assets\button.png" alt=""></a></div>
 
 
     </div>
+
+
 
     <div class="package-container">
 
@@ -47,7 +59,7 @@ import Navbar from "./Navbar.svelte";
         <img src="src\assets\logo.png" alt="">
     </div>
 
-
+<Footer/>
 
 
 </main>
@@ -55,17 +67,35 @@ import Navbar from "./Navbar.svelte";
 
 <style>
 
-.banner {
+    main{
+        overflow: hidden;
+    }
+
+/* .banner {
+    position: relative;
         width: 100vw;
         height: 100vh;
         background: url(".\assets\landing upper desktop.png") no-repeat;
         background-size: cover;
+    } */
+    .banner {
+        position: relative;
+    }
+    .banner img{
+        width: 100vw;
     }
 
+.button img {
+    width: 200px;
+    position: absolute;
+    right: 7.5%;
+    bottom: 18%;
+}
 .package-container {
     display: grid;
     grid-template-columns: auto auto;
     place-items: center;
+    margin-top: 100px;
 
 }
 
@@ -81,8 +111,9 @@ import Navbar from "./Navbar.svelte";
     display: flex;
     justify-content: left;
     margin-left: 100px;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom: 50px;
+
 }
 
 .launch img {
@@ -91,7 +122,7 @@ import Navbar from "./Navbar.svelte";
 
 .showcase {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50vw 50vw;
 }
 
 .pink img {
@@ -115,14 +146,14 @@ import Navbar from "./Navbar.svelte";
 }
 
 .logo-container {
-    margin-top: 50px;
+    margin-top: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .logo-container img {
-    width: 20vw;
+    width: 15vw;
 }
 
 
@@ -137,14 +168,23 @@ import Navbar from "./Navbar.svelte";
 
 @media (max-width: 960px){
 
-    .banner {
+    .button{
         width: 100vw;
-        background: url(".\assets\landing upper.png") no-repeat;
-        background-size: contain;
+        display: flex;
+        align-items: center ;
+        justify-content: center;
     }
+    .button img {
+    width: 180px;
+    position:absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
 
     .package-container {
         grid-template-columns: auto;
+        margin-top: 0px;
     
 }
 
@@ -156,11 +196,13 @@ import Navbar from "./Navbar.svelte";
     width: 100vw;
 }
 
+
+
 .launch {
     justify-content: right;
     margin-left: 0px;
     margin-right: 50px;
-    margin-top: 25px;
+    margin-top: 50px;
     margin-bottom: 25px;
 }
 
@@ -184,6 +226,10 @@ import Navbar from "./Navbar.svelte";
 
 .quote img {
     width: 30vw;
+}
+
+.logo-container {
+    margin-top: 70px;
 }
 
 
