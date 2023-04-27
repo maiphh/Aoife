@@ -29,11 +29,6 @@
 }
 
 
-footer {
-  margin-top: 100px;
-
-}
-
 .exchange {
     text-align: center;
 }
@@ -96,10 +91,7 @@ footer {
 
 
 @media (max-width :960px) {
-    footer {
-  margin-top: 50px;
 
-}
     .exchange a {
         font-size: 10px;
     }

@@ -44,11 +44,18 @@
   src: url(..\src\fonts\Vollkorn-VariableFont_wght.ttf) format('truetype');
 }
 
+main{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+
+}
+
 .title {
     font-family: 'vollkron';
     margin-top: 200px;
     margin-left: 100px;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -64,23 +71,25 @@ margin-bottom: 150px;
 
 .content {
     font-family: 'vollkorn';
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 28px;
 }
+
 
 @media (max-width: 960px) {
 
     .title{
-        font-size: 20px;
+        font-size: 18px;
         margin-left: 50px;
     }
     .container {
-    font-size: 16px;
     margin-right: 10vw;
     margin-left: 50px;
+    
 }
 
 .content p{
-    font-size: 14px;
+    font-size: 12px;
 }
 }
 
