@@ -224,7 +224,9 @@ let width = 0;
     margin-top: -10px;
     width: 100vw;
 }
-
+.quote {
+    margin-top: 20px;
+}
 .quote img {
     width: 40vw;
 }

@@ -137,6 +137,7 @@ li {
 }
 
 .copyright {
+  font-size: 12px;
     margin-top: 50px;
 }
 }
