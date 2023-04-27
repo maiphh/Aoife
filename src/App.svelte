@@ -88,8 +88,13 @@ let width = 0;
 .button img {
     width: 200px;
     position: absolute;
-    right: 7.5%;
+    right: 6.5%;
     bottom: 18%;
+}
+
+.button img:hover {
+    opacity: 0.6;
+    transition: 0.5s;
 }
 .package-container {
     display: grid;

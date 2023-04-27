@@ -1,9 +1,5 @@
 <footer>
 
-    <div class="exchange">
-<a href="">EXCHANGE POLICY</a>
-        
-    </div>
 
     <div class="footer-nav">
         <ul>
@@ -57,18 +53,19 @@ footer {
     font-family: "vollkron";
     font-weight: 500;
     font-style: italic;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .footer-nav ul {
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .footer-nav ul li {
-    margin-left: 3vw;
-    margin-right: 3vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
   display: inline-block;
   line-height: 150px;
 }
@@ -76,7 +73,7 @@ footer {
 .footer-nav ul li a {
   font-family: 'blooming';
   color: black;
-  font-size: 30px;
+  font-size: 20px;
   margin: 0 20px;
   text-transform: uppercase;
   text-decoration: none;
@@ -94,6 +91,7 @@ footer {
     font-family: 'vollkron';
     text-decoration: none;
     margin-bottom: 20px;
+    font-size: 12px;
 }
 
 
@@ -137,7 +135,7 @@ li {
 }
 
 .copyright {
-  font-size: 12px;
+  font-size: 8px;
     margin-top: 50px;
 }
 }

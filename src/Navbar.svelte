@@ -46,7 +46,7 @@ margin-left: 30px;
 }
 nav ul {
   float: right;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 nav ul li,
