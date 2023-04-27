@@ -2,7 +2,7 @@
     <nav>
   <input type="checkbox" id="menu">
   <label for="menu" class="menu-icon">
-  <img src="assets\menu.png" alt="menu">
+  <img src="assets\menu.png" alt="menus">
   </label>
 
   <label class="logo"><a href="index.html"><img src="assets\logo.png" alt=""></a></label>
