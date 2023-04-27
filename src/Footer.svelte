@@ -55,7 +55,7 @@ footer {
 
 .contact {
     font-family: "vollkron";
-    font-weight: bold;
+    font-weight: 500;
     font-style: italic;
     font-size: 24px;
 }
@@ -93,7 +93,7 @@ footer {
     color: #666666;
     font-family: 'vollkron';
     text-decoration: none;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 

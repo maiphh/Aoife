@@ -13,11 +13,11 @@ let width = 0;
     <Navbar/>
     <div class="banner">
         {#if width>960}
-        <img src="src\assets\landing upper desktop.png" alt="">
+        <img src="assets\landing upper desktop.png" alt="">
         {:else} 
-        <img src="src\assets\landing upper.png" alt="">
+        <img src="assets\landing upper.png" alt="">
         {/if}
-        <div class="button"> <a href="https://www.instagram.com/aoifestudios/"><img src="src\assets\button.png" alt=""></a></div>
+        <div class="button"> <a href="https://www.instagram.com/aoifestudios/"><img src="assets\button.png" alt=""></a></div>
 
 
     </div>
@@ -27,36 +27,36 @@ let width = 0;
     <div class="package-container">
 
         <div class="brand-name">
-            <img src="src\assets\brand middle.png" alt="">
+            <img src="assets\brand middle.png" alt="">
         </div>
 
         <div class="packaging">
-            <img src="src\assets\package middle.png" alt="">
+            <img src="assets\package middle.png" alt="">
         </div>
 
     </div>
 
     <div class="launch"> 
-        <img src="src\assets\launch.png" alt="">
+        <img src="assets\launch.png" alt="">
     </div>
 
     <div class="showcase">
 
         <div class="pink">
-            <img src="src\assets\pink.png" alt="">
+            <img src="assets\pink.png" alt="">
         </div>
 
         <div class="white">
-            <img src="src\assets\white.png" alt="">
+            <img src="assets\white.png" alt="">
         </div>
     </div>
 
     <div class="quote"> 
-        <img src="src\assets\“Wholeheartedly made by Aoife”.png" alt="">
+        <img src="assets\“Wholeheartedly made by Aoife”.png" alt="">
     </div>
 
     <div class="logo-container">
-        <img src="src\assets\logo.png" alt="">
+        <img src="assets\logo.png" alt="">
     </div>
 
 <Footer/>
@@ -117,7 +117,8 @@ let width = 0;
 }
 
 .launch img {
-    width: 500px;
+    width: 300px;
+    margin-left: 90px;
 }
 
 .showcase {
@@ -184,7 +185,7 @@ let width = 0;
 
     .package-container {
         grid-template-columns: auto;
-        margin-top: 0px;
+        margin-top: 200px;
     
 }
 
@@ -207,7 +208,7 @@ let width = 0;
 }
 
 .launch img {
-    width: 200px;
+    width: 150px;
 }
 
 .showcase {
@@ -225,11 +226,15 @@ let width = 0;
 }
 
 .quote img {
-    width: 30vw;
+    width: 40vw;
 }
 
 .logo-container {
     margin-top: 70px;
+}
+
+.logo-container img {
+    width: 25vw;
 }
 
 

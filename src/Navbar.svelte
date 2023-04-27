@@ -2,10 +2,10 @@
     <nav>
   <input type="checkbox" id="menu">
   <label for="menu" class="menu-icon">
-  <img src="src\assets\menu.png" alt="menu">
+  <img src="assets\menu.png" alt="menu">
   </label>
 
-  <label class="logo"><a href="index.html"><img src="src\assets\logo.png" alt=""></a></label>
+  <label class="logo"><a href="index.html"><img src="assets\logo.png" alt=""></a></label>
       <ul>
         
         <li><a href="about.html">ABOUT US</a></li>
@@ -46,7 +46,7 @@ margin-left: 30px;
 }
 nav ul {
   float: right;
-  margin-right: 100px;
+  margin-right: 30px;
 }
 
 nav ul li,
@@ -120,6 +120,7 @@ nav ul li a:hover {
 
   nav ul li a {
     padding: 10px 20vw;
+    font-size: 24px;
   }
   #menu:checked ~ ul{
     right: 0;
