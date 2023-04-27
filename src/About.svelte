@@ -13,7 +13,7 @@
 <div class="container">
 
     <div class="image">
-        <img src="src\assets\logo2.png" alt="">
+        <img src="assets\logo2.png" alt="">
     </div>
 
     <div class="content">
