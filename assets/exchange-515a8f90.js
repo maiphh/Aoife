@@ -1,4 +1,4 @@
-import{S as J,i as K,s as Q,N as Z,F as ee,e as a,c as G,b as q,u as l,d as o,f as g,g as H,h as D,v as c,j as p,l as b,m as te,n as O,o as e,w as ne,t as U,q as X,r as Y}from"./Footer-0a4ee707.js";function re(j){let r,h,y,u,w,_,m,f,t,x,$,E,B,S,R,T,C,I,W,A,N,P,k,z,L,d,v;return h=new Z({}),d=new ee({}),{c(){r=a("main"),G(h.$$.fragment),y=q(),u=a("div"),w=l("EXCHANGE POLICY"),_=q(),m=a("div"),f=a("div"),t=a("p"),x=l(`We really understand and sympathize with your \r
+import{S as J,i as K,s as Q,N as Z,F as ee,e as a,c as G,b as q,u as l,d as o,f as g,g as H,h as D,v as c,j as p,l as b,m as te,n as O,o as e,w as ne,t as U,q as X,r as Y}from"./Footer-ff4498d7.js";function re(j){let r,h,y,u,w,_,m,f,t,x,$,E,B,S,R,T,C,I,W,A,N,P,k,z,L,d,v;return h=new Z({}),d=new ee({}),{c(){r=a("main"),G(h.$$.fragment),y=q(),u=a("div"),w=l("EXCHANGE POLICY"),_=q(),m=a("div"),f=a("div"),t=a("p"),x=l(`We really understand and sympathize with your \r
             desire to return or exchange the items as you are \r
             unhappy upon receiving it. Therefore, we want to \r
             make it clear here. Please help us by carefully \r
