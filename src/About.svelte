@@ -64,6 +64,7 @@ main{
 .content {
     font-family: 'vollkorn';
     font-size: 16px;
+    line-height: 27px;
 }
 
 

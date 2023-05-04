@@ -56,7 +56,7 @@ main{
     margin-top: 200px;
     margin-left: 100px;
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .container {
@@ -72,7 +72,7 @@ margin-bottom: 150px;
 .content {
     font-family: 'vollkorn';
     font-size: 16px;
-    line-height: 28px;
+    line-height: 27px;
 }
 
 
