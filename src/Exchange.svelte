@@ -43,6 +43,10 @@
   font-family: "vollkron";
   src: url(..\src\fonts\Vollkorn-VariableFont_wght.ttf) format('truetype');
 }
+@font-face {
+  font-family: "blooming";
+  src: url(..\src\fonts\9Slide03-IcielBlooming-Elegant-Sans1_1.ttf) format('truetype');
+}
 
 main{
     min-height: 100vh;
@@ -52,17 +56,22 @@ main{
 }
 
 .title {
-    font-family: 'vollkron';
+    font-family: 'blooming';
     margin-top: 200px;
-    margin-left: 100px;
-    font-size: 22px;
+    margin-left: 10vw;
+    font-size: 30px;
     font-weight: 500;
 }
 
 .container {
-    margin-left: 100px;
-margin-right: 25vw;
-margin-bottom: 150px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F6F3;
+padding: 5vw;
 }
 
 .image img {
@@ -70,6 +79,7 @@ margin-bottom: 150px;
 }
 
 .content {
+    
     font-family: 'vollkorn';
     font-size: 16px;
     line-height: 27px;
@@ -79,7 +89,7 @@ margin-bottom: 150px;
 @media (max-width: 960px) {
 
     .title{
-        font-size: 18px;
+        font-size: 30px;
         margin-left: 50px;
     }
     .container {
