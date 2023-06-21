@@ -1,16 +1,32 @@
-<header>
-    <nav>
+<script>
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-80px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+</script>
+<header style="margin-bottom: 80px;">
+    <nav id="navbar">
   <input type="checkbox" id="menu">
   <label for="menu" class="menu-icon">
   <img src="assets\menu.png" alt="menus">
   </label>
 
-  <label class="logo"><a href="index.html"><img src="assets\logo.png" alt=""></a></label>
-      <ul>
+  <ul>
         
-        <li><a href="about.html">ABOUT US</a></li>
-        <li><a href="exchange.html">EXCHANGE POLICY</a></li>
-      </ul>
+    <li><a href="about.html">ABOUT US</a></li>
+    <li><a href="exchange.html">EXCHANGE POLICY</a></li>
+  </ul>
+
+  <label class="logo"><a href="index.html"><img src="assets\logo.png" alt=""></a></label>
+      
     </nav>
   </header>
 
@@ -21,21 +37,22 @@
 }
 
 nav {
+  background-color: #F3F2EE;
   height: 80px;
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 1000;
-  
+  transition: 0.5s;
 }
 .logo {
-    margin: auto;
-  width: 50%;
+  position: absolute;
+  right: 50%;
 }
 .logo a img{
     
-margin-top: 30px;
-margin-left: 30px;
+margin-top: 20px;
+
   width: 100px;
  
 }
@@ -45,14 +62,14 @@ margin-left: 30px;
   
 }
 nav ul {
-  float: right;
+  float: left;
   margin-right: 20px;
 }
 
 nav ul li,
 .logo {
   display: inline-block;
-  line-height: 80px;
+  line-height: 60px;
   margin: 0 5px;
 }
 

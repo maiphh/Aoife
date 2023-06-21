@@ -2,6 +2,24 @@
 <script>
 import Navbar from "./Navbar.svelte";
 import Footer from "./Footer.svelte";
+import axios from 'axios';
+import cors from 'cors';
+
+
+
+let config = {
+    headers: {
+        Token: "5fb460d2820eab2adf09165d66ff028de52519bb",
+    }
+}
+
+let status = async () => {
+    let response = await axios.get("https://services.giaohangtietkiem.vn/services/shipment/v2/S22145818.BO.MN8-04-C62.1058989704", config );
+    let data = response.data;
+    console.log(data);
+}
+
+status();
 
 let width = 0;
 </script>
