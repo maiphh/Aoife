@@ -1,3 +1,15 @@
+<div class="slogan">
+  <p>“<i><b>Wholeheartedly</b></i> made by Aoife”</p> 
+</div>
+
+<div class="logo">
+  <img src="assets\logotrans.png" alt="">
+</div>
+
+<div class="exchange">
+  <p>EXCHANGE POLICY</p>
+</div>
+
 <footer>
 
 
@@ -28,6 +40,39 @@
   src: url(..\src\fonts\Vollkorn-VariableFont_wght.ttf) format('truetype');
 }
 
+.slogan {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slogan p{
+    font-family: "vollkorn";
+}
+
+.logo, .exchange {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    width: 10vw;
+}
+
+.exchange p{
+    font-family: "vollkorn";
+    font-weight: lighter;
+    color: #666666;
+    font-size: 13px;
+}
+
+footer {
+  background-color: white;
+}
 
 .exchange {
     text-align: center;
@@ -85,12 +130,23 @@
     color: #666666;
     font-family: 'vollkron';
     text-decoration: none;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     font-size: 12px;
 }
 
 
 @media (max-width :960px) {
+
+
+
+.logo img{
+    width: 25vw;
+}
+
+.exchange p{
+    font-size: 11px;
+}
+
 
     .exchange a {
         font-size: 10px;

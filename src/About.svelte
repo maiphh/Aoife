@@ -17,9 +17,11 @@
     </div>
 
     <div class="content">
-        <p> <b>Aoife Studios</b> is a female fashion brand founded in early 2023 and officially dedicated in May, 2023. Inspired by the Irish name “Aoife” /EE-fə/, which means “beauty” or "radiance", our brand prides ourselves on ability to cater customers’ preferences with our wholehearted-made clothing that makes people feel more radiant and rather beautiful. More than just a brand, we also want to bring a community that embraces both your outer and inner beauty. We believe that each of us deserves all the best clothing stuff to enhance our confidence wherever we are.
-            <br><br>
-            <b>Aoife Studios</b> là brand thời trang nữ được thành lập vào đầu năm 2023 và chính thức đi vào hoạt động từ Tháng 5 cùng năm. Lấy cảm hứng từ một tên riêng của người Ireland "Aoife" /EE-fə/, mang ý nghĩa "vẻ đẹp" hay "nét rạng rỡ", Aoife Studios hy vọng những sản phẩm của chúng mình sẽ phần nào đó tôn lên vẻ đẹp và nét rạng rỡ của bạn.
+        <p><b> Aoife Studios </b> is a female fashion brand founded in early 2023 and officially dedicated in May, 2023. <br><br>
+
+            Inspired by the Irish name “Aoife” /EE-fə/, which means “beauty” or "radiance", our brand prides ourselves on ability to cater customers’ preferences with our wholehearted-made clothing that makes people feel more radiant and rather beautiful. <br><br>
+            
+            More than just a brand, we also want to bring a community that embraces both your outer and inner beauty. We believe that each of us deserves all the best clothing stuff to enhance our confidence wherever we are.
         </p>
         
         
@@ -35,6 +37,11 @@
   font-family: "vollkron";
   src: url(..\src\fonts\Vollkorn-VariableFont_wght.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: "blooming";
+  src: url(..\src\fonts\9Slide03-IcielBlooming-Elegant-Sans1_1.ttf) format('truetype');
+}
 main{
     min-height: 100vh;
     display: grid;
@@ -43,25 +50,32 @@ main{
 }
 
 .title {
-    font-family: 'vollkron';
+    font-family: 'blooming';
     margin-top: 200px;
-    margin-left: 100px;
-    font-size: 22px;
+    margin-left: 10vw;
+    font-size: 30px;
     font-weight: 500;
+    margin-bottom: 50px;
+    font-weight: 550;
 }
 
 .container {
+    background-color: #F8F6F3;
     display: grid;
-    grid-template-columns: 35vw 50vw;
+    grid-template-columns: 25vw 50vw;
     margin-bottom: -120px;
-    
+    place-items: center;
+    margin-bottom: auto;
+    margin-right: 10vw;
+    margin-left: 10vw;
 }
 
 .image img {
-    width: 30vw;
+    width: 25vw;
 }
 
 .content {
+    margin-left: 5vw;
     font-family: 'vollkorn';
     font-size: 16px;
     line-height: 27px;
@@ -70,25 +84,34 @@ main{
 
 
 
+
 @media (max-width: 960px) {
     .title{
-        font-size: 18px;
-        margin-left: 50px;
+        font-size: 30px;
+        margin-left: 20vw;
     }
     .container{
-      place-items: center;
+        background-color: #F3F2EE;
+      place-items: start;
         grid-template-columns: auto;
         margin-bottom: 0px;
         
     }
 
     .content {
+        background-color: #F8F6F3;
     margin-left: 10vw;
     margin-right: 10vw;
+    padding: 5vw;
 }
 
 .content p{
     font-size: 12px;
+}
+
+.image{
+    margin-left: 10vw;
+    margin-bottom: -10px;
 }
 }
 </style>
