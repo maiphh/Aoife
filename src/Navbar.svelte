@@ -48,7 +48,7 @@ nav {
 }
 .logo {
   position: absolute;
-  right: 50%;
+  margin-left: 15vw;
 }
 .logo a img{
     
@@ -64,7 +64,10 @@ margin-top: 20px;
 }
 nav ul {
   float: left;
-  margin-right: 20px;
+  padding: 0;
+  margin-left: 5vw;
+  margin-right: 11vw;
+  width: 30vw;
 }
 
 nav ul li,
@@ -126,6 +129,7 @@ nav ul li a:hover {
   
 }
   nav ul {
+    margin: 0;
     opacity: 50%;
     width: 50%;
     height: 100vh;
@@ -135,8 +139,6 @@ nav ul li a:hover {
     transition: all .5s;
     position: fixed;
     background-color: #FBFBFA;
-    margin-right: 0;
-    margin-top: 0;
     z-index: 1;
     padding: 0;
   }

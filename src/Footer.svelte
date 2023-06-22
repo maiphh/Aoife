@@ -41,8 +41,8 @@
 }
 
 .slogan {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     display: flex;
     align-items: center;
     justify-content: center;

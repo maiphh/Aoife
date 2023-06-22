@@ -159,6 +159,10 @@ let width = 0;
     font-size: 20px;
 }
 
+.para{
+    font-family: "vollkron";
+}
+
 .read-more{
     font-family: "blooming";
     font-size: 22px;
@@ -194,12 +198,12 @@ let width = 0;
 
 .insta img{
     width: 30vw;
-    z-index: 1000;
+    z-index: 3;
     margin-bottom: -7vw;
 }
 
 .insta a {
-    z-index: 1000;
+    z-index: 3;
 }
 
 .divider {
@@ -208,36 +212,21 @@ let width = 0;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 40vh;
+    height: 45vh;
     margin-bottom: -2vw;
 }
 
 .divider img{
-    width: 30vw ;
+    width: 20vw;
 }
 
-.brand-name img{
-    width: 50vw;
-}
 
 .packaging img{
     width: 40vw;
     margin-right: 10vw;
 }
 
-.launch {
-    display: flex;
-    justify-content: left;
-    margin-left: 100px;
-    margin-top: 150px;
-    margin-bottom: 50px;
 
-}
-
-.launch img {
-    width: 300px;
-    margin-left: 90px;
-}
 
 .showcase {
     display: grid;
@@ -255,7 +244,6 @@ let width = 0;
 
 .overlay{
     margin-top: -5vw;
-    margin-bottom: 5vw;
 }
 
 .overlay img{
@@ -290,7 +278,7 @@ let width = 0;
 
     .package-container {
         grid-template-columns: auto;
-        margin-top: 200px;
+        margin-top: 100px;
     
 }
 
@@ -313,7 +301,7 @@ let width = 0;
 }
 
 .read-more{
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .packaging img{
@@ -323,6 +311,8 @@ let width = 0;
 
 .logo-mid img{
     width: 25vw;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
 }
 
 .insta img{
@@ -332,7 +322,7 @@ let width = 0;
 }
 
 .divider {
-    height: 25vh;
+    height: 35vh;
 }
 
 .divider img{
