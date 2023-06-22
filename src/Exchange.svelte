@@ -61,6 +61,8 @@ main{
     margin-left: 10vw;
     font-size: 30px;
     font-weight: 500;
+    text-shadow: 0px 3px 2px #C8C7C4;
+        font-weight: bold;
 }
 
 .container {
@@ -91,6 +93,7 @@ padding: 5vw;
     .title{
         font-size: 30px;
         margin-left: 50px;
+        
     }
     .container {
     margin-right: 10vw;

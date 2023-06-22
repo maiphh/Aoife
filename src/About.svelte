@@ -57,6 +57,9 @@ main{
     font-weight: 500;
     margin-bottom: 50px;
     font-weight: 550;
+    text-shadow: 0px 3px 2px #C8C7C4;
+    font-weight: 600;
+    
 }
 
 .container {

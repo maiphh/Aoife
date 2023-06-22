@@ -7,7 +7,7 @@
 </div>
 
 <div class="exchange">
-  <p>EXCHANGE POLICY</p>
+  <a href="exchange.html"><p>EXCHANGE POLICY</p></a>
 </div>
 
 <footer>

@@ -45,9 +45,9 @@ let width = 0;
     <div class="package-container">
 
         <div class="brand-name">
-            <div class="meet"> <p><i>Meet</i> <b>Aoife Team</b></p></div>
+            <div class="meet"> <p><i>Meet <b>Aoife Team</b></i></p></div>
             <div class="sub-meet"> <p> We bring our muses the <i><b>brightest</b></i> stuff.</p></div>
-            <p>Aoife Studios is a female fashion brand founded in early 2023 and officially dedicated in May, 2023. Inspired by the Irish name "Aoife" /EE-fə/, which means "beauty" or "radiance", our brand prides ourselves on...</p>
+            <p class="para">Aoife Studios is a female fashion brand founded in early 2023 and officially dedicated in May, 2023. Inspired by the Irish name "Aoife" /EE-fə/, which means "beauty" or "radiance", our brand prides ourselves on...</p>
             <div class="read-more"> <a href="about.html">READ MORE</a></div>
         </div>
 
@@ -103,6 +103,11 @@ let width = 0;
   src: url(..\src\fonts\Vollkorn-VariableFont_wght.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: "garamond";
+  src: url(..\src\fonts\GaramondCondensedLightRegular.ttf) format('truetype');
+}
+
     main{
         overflow: hidden;
     }
@@ -124,8 +129,8 @@ let width = 0;
 .button img {
     width: 150px;
     position: absolute;
-    left: 20%;
-    bottom: 18%;
+    left: 18%;
+    bottom: 15%;
 }
 
 .button img:hover {
@@ -133,7 +138,7 @@ let width = 0;
     transition: 0.5s;
 }
 .package-container {
-    font-family: "vollkron";
+    font-family: "garamond";
     display: grid;
     grid-template-columns: auto auto;
     place-items: center;
@@ -198,11 +203,17 @@ let width = 0;
 }
 
 .divider {
+    background-color: #E7E3DE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 40vh;
     margin-bottom: -2vw;
 }
 
 .divider img{
-    width: 100vw ;
+    width: 30vw ;
 }
 
 .brand-name img{
@@ -274,6 +285,7 @@ let width = 0;
     right: 0;
     left: 0;
     margin: auto;
+    bottom: 12%;
 }
 
     .package-container {
@@ -288,6 +300,21 @@ let width = 0;
     margin-bottom: 5vw;
 }
 
+.meet{
+    font-size: 24px;
+}
+
+.sub-meet{
+    font-size: 16px;
+}
+
+.brand-name .para{
+    font-size: 12px;
+}
+
+.read-more{
+    font-size: 22px;
+}
 
 .packaging img{
     width: 80vw;
@@ -295,16 +322,21 @@ let width = 0;
 }
 
 .logo-mid img{
-    width: 15vw;
+    width: 25vw;
 }
 
 .insta img{
-    width: 50vw;
+    width: 70vw;
 
     margin-bottom: -7vw;
 }
 
+.divider {
+    height: 25vh;
+}
+
 .divider img{
+    width: 40vw ;
 }
 
 .showcase {

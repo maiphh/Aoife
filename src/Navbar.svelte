@@ -109,6 +109,8 @@ nav ul li a:hover {
 
   .logo {
     line-height: 80px;
+    left: 45%;
+    margin: 0;
   }
     .logo a img{
     width: 50px;
