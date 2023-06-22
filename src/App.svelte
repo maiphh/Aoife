@@ -45,7 +45,10 @@ let width = 0;
     <div class="package-container">
 
         <div class="brand-name">
-            <img src="assets\brand middle.png" alt="">
+            <div class="meet"> <p><i>Meet</i> <b>Aoife Team</b></p></div>
+            <div class="sub-meet"> <p> We bring our muses the <i><b>brightest</b></i> stuff.</p></div>
+            <p>Aoife Studios is a female fashion brand founded in early 2023 and officially dedicated in May, 2023. Inspired by the Irish name "Aoife" /EE-fə/, which means "beauty" or "radiance", our brand prides ourselves on...</p>
+            <div class="read-more"> <a href="about.html">READ MORE</a></div>
         </div>
 
         <div class="packaging">
@@ -54,8 +57,16 @@ let width = 0;
 
     </div>
 
-    <div class="launch"> 
-        <img src="assets\launch.png" alt="">
+    <div class="logo-mid">
+        <img src="assets\logo-mid.png" alt="">
+    </div>
+    
+    <div class="insta">
+        <a href="https://www.instagram.com/aoifestudios/"><img src="assets\insta.png" alt=""></a>
+    </div>
+
+    <div class="divider">
+        <img src="assets\slogan-divider.png" alt="">
     </div>
 
     <div class="showcase">
@@ -69,13 +80,11 @@ let width = 0;
         </div>
     </div>
 
-    <div class="quote"> 
-        <img src="assets\“Wholeheartedly made by Aoife”.png" alt="">
+    <div class="overlay">
+        <img src="assets\overlay.png" alt="">
     </div>
+  
 
-    <div class="logo-container">
-        <img src="assets\logo.png" alt="">
-    </div>
 
 <Footer/>
 
@@ -84,6 +93,15 @@ let width = 0;
 
 
 <style>
+    @font-face {
+  font-family: "blooming";
+  src: url(..\src\fonts\9Slide03-IcielBlooming-Elegant-Sans1_1.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "vollkron";
+  src: url(..\src\fonts\Vollkorn-VariableFont_wght.ttf) format('truetype');
+}
 
     main{
         overflow: hidden;
@@ -104,9 +122,9 @@ let width = 0;
     }
 
 .button img {
-    width: 200px;
+    width: 150px;
     position: absolute;
-    right: 6.5%;
+    left: 20%;
     bottom: 18%;
 }
 
@@ -115,6 +133,7 @@ let width = 0;
     transition: 0.5s;
 }
 .package-container {
+    font-family: "vollkron";
     display: grid;
     grid-template-columns: auto auto;
     place-items: center;
@@ -122,12 +141,77 @@ let width = 0;
 
 }
 
+.brand-name{
+    margin-left: 10vw;
+    margin-right: 5vw;
+}
+
+.meet{
+    font-size: 30px;
+}
+
+.sub-meet{
+    font-size: 20px;
+}
+
+.read-more{
+    font-family: "blooming";
+    font-size: 22px;
+    text-decoration: underline;
+    float:right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.read-more a{
+    color: black;
+}
+
+.logo-mid{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-mid img{
+    width: 10vw;
+}
+
+.insta{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.insta img{
+    width: 30vw;
+    z-index: 1000;
+    margin-bottom: -7vw;
+}
+
+.insta a {
+    z-index: 1000;
+}
+
+.divider {
+    margin-bottom: -2vw;
+}
+
+.divider img{
+    width: 100vw ;
+}
+
 .brand-name img{
     width: 50vw;
 }
 
 .packaging img{
-    width: 50vw;
+    width: 40vw;
+    margin-right: 10vw;
 }
 
 .launch {
@@ -158,28 +242,14 @@ let width = 0;
     width: 50vw;
 }
 
-.quote {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.overlay{
+    margin-top: -5vw;
+    margin-bottom: 5vw;
 }
 
-.quote img {
-    width: 20vw;
+.overlay img{
+    width: 100vw;
 }
-
-.logo-container {
-    margin-top: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo-container img {
-    width: 15vw;
-}
-
 
 @media (max-width: 1600px){
 
@@ -212,26 +282,29 @@ let width = 0;
     
 }
 
-.brand-name img{
-    width: 100vw;
+.brand-name{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 5vw;
 }
+
 
 .packaging img{
-    width: 100vw;
+    width: 80vw;
+    margin-right: 0vw;
 }
 
-
-
-.launch {
-    justify-content: right;
-    margin-left: 0px;
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 25px;
+.logo-mid img{
+    width: 15vw;
 }
 
-.launch img {
-    width: 150px;
+.insta img{
+    width: 50vw;
+
+    margin-bottom: -7vw;
+}
+
+.divider img{
 }
 
 .showcase {

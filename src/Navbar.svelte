@@ -7,6 +7,7 @@ window.onscroll = function() {
     document.getElementById("navbar").style.top = "0";
   } else {
     document.getElementById("navbar").style.top = "-80px";
+    document.getElementById("menu").checked = false;
   }
   prevScrollpos = currentScrollPos;
 }
@@ -93,9 +94,9 @@ nav ul li a:hover {
 .menu-icon {
   cursor: pointer;
   font-size: 28px;
-  float: right;
+  float: left;
   line-height: 80px;
-  margin-right: 40px;
+  margin-left: 40px;
   display: none;
 }
 
@@ -105,9 +106,13 @@ nav ul li a:hover {
 
 /* Mobile layout */
 @media (max-width: 960px) {
+
+  .logo {
+    line-height: 80px;
+  }
     .logo a img{
     width: 50px;
-    margin-top: 15px;
+    margin-top: 0px;
     }
 
   .menu-icon {
@@ -119,28 +124,30 @@ nav ul li a:hover {
   
 }
   nav ul {
-
-    width: 100%;
+    opacity: 50%;
+    width: 50%;
     height: 100vh;
     top: 80px;
     text-align: center;
-    right: -120%;
+    left: -80%;
     transition: all .5s;
     position: fixed;
     background-color: #FBFBFA;
     margin-right: 0;
+    margin-top: 0;
     z-index: 1;
+    padding: 0;
   }
   nav ul li {
     display: block;
   }
 
   nav ul li a {
-    padding: 10px 20vw;
+    opacity: 100%;
     font-size: 24px;
   }
   #menu:checked ~ ul{
-    right: 0;
+    left: 0%;
   }
 
 }
